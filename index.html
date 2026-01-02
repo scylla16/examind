@@ -3,14 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>ExaMind</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #ffffff;
+      color: #2d1b4f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 360px;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #6a3df0;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    button {
+      background: linear-gradient(135deg, #6a3df0, #8b5cf6);
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1em;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(106, 61, 240, 0.3);
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
 </head>
 <body>
-
-  <h1>Bienvenue sur ExaMind</h1>
-  <p>L’application qui t’aide à réviser efficacement du collège au lycée.</p>
-
-  <button>Commencer</button>
-
+  <div class="container">
+    <h1>ExaMind</h1>
+    <p>Des fiches claires pour réviser vite, de la 3e à la terminale.</p>
+    <button>Commencer</button>
+  </div>
 </body>
 </html>
