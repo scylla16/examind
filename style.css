@@ -16,14 +16,52 @@ header {
 
 .container {
   padding: 20px;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card {
   background: white;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 20px;
+  flex: 1 1 calc(30% - 20px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.retour {
+  background: #6d28d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.retour:hover {
+  background: #5b21b6;
+}
+
+.matiere {
+  background: #a78bfa;
+  color: white;
+}
+
+.theme {
+  background: #c4b5fd;
+}
+
+.chapitre {
+  background: #e0d7fd;
 }
