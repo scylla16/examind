@@ -42,5 +42,18 @@
       <p>Bientôt : Français, Maths, Histoire, SVT…</p>
     </div>
   </div>
+  <div class="container" id="fiches-container"></div>
+
+<script src="app.js"></script>
+<script>
+  const container = document.getElementById('fiches-container');
+  fiches.forEach(fiche => {
+    const div = document.createElement('div');
+    div.className = 'card';
+    div.innerHTML = `<h3>${fiche.titre} (${fiche.type})</h3><p>${fiche.contenu}</p>`;
+    container.appendChild(div);
+  });
+</script>
+
 </body>
 </html>
