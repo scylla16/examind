@@ -10,29 +10,21 @@ body {
   font-family: 'Segoe UI', system-ui, sans-serif;
   min-height: 100vh;
   background: linear-gradient(135deg, #5f2eea, #7c3aed, #a855f7);
-  color: #2d1b4e;
+  color: #fff;
+  transition: background 0.5s;
 }
 
-/* HEADER */
-header {
-  text-align: center;
-  padding: 30px 20px;
-  font-size: 32px;
-  font-weight: 800;
-  color: white;
-}
-
-/* CONTAINER */
-.container {
+/* CONTENEUR PRINCIPAL */
+#app {
   max-width: 1100px;
   margin: auto;
-  padding: 20px;
+  padding: 30px 15px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
-/* CARTES */
+/* CARTES MATIÈRE */
 .card {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 18px;
@@ -40,8 +32,9 @@ header {
   text-align: center;
   cursor: pointer;
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s;
   font-weight: 600;
+  color: #2d1b4e;
 }
 
 .card:hover {
@@ -79,4 +72,9 @@ header {
 
 .retour:hover {
   background: rgba(255,255,255,0.35);
+}
+
+/* TITRES */
+h2, h3 {
+  margin-bottom: 12px;
 }
