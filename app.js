@@ -1,3 +1,20 @@
+// SPLASH SCREEN
+const splash = document.getElementById("splash");
+const app = document.getElementById("app");
+app.style.display = "none"; // cache le contenu principal
+
+// Afficher le contenu après 2 secondes
+setTimeout(() => {
+  // Option fade out si tu veux
+  splash.classList.add("fadeOut");
+
+  setTimeout(() => {
+    splash.style.display = "none"; // cache splash
+    app.style.display = "flex";    // montre contenu principal
+    showMatieres();                 // lance ton flow
+  }, 500); // temps du fade
+}, 2000); // durée du splash
+
 // CONTENEUR PRINCIPAL
 const app = document.getElementById("app");
 
