@@ -1,39 +1,29 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f6f8;
+  background: #f5f3ff;
+  color: #2d1b4e;
+  margin: 0;
 }
 
 header {
-  background: #0a5cff;
+  background: #6d28d9;
   color: white;
-  padding: 15px;
   text-align: center;
-}
-
-nav button {
-  margin: 5px;
-  padding: 8px 14px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-main {
   padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.page {
-  display: block;
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
-.hidden {
-  display: none;
-}
-
-#fiches-list div {
+.card {
   background: white;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
