@@ -1,3 +1,44 @@
+/* SPLASH SCREEN */
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #6a0dad, #4b0082, #3a0ca3, #5f0f40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.line {
+  position: absolute;
+  width: 150%;
+  height: 4px;
+  background: linear-gradient(to right, #00f0ff, #b266ff);
+  opacity: 0.6;
+  transform: translateX(-100%);
+  animation: slide 2s ease-in-out forwards; /* ici on enlève "infinite" */
+}
+
+/* Décaler les lignes pour effet stylé */
+.line:nth-child(2) { animation-delay: 0.3s; top: 30%; }
+.line:nth-child(3) { animation-delay: 0.6s; top: 60%; }
+
+@keyframes slide {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+/* Optionnel : fade out pour le splash */
+#splash.fadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 /* RESET DE BASE */
 * {
   margin: 0;
