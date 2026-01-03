@@ -1,6 +1,4 @@
-/* -----------------------------
-   RESET DE BASE
------------------------------- */
+/* RESET DE BASE */
 * {
   margin: 0;
   padding: 0;
@@ -10,13 +8,11 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #6a0dad, #b266ff); /* dégradé violet */
+  background: linear-gradient(135deg, #6a0dad, #b266ff);
   color: #fff;
 }
 
-/* -----------------------------
-   HEADER
------------------------------- */
+/* HEADER */
 header {
   text-align: center;
   padding: 20px;
@@ -25,9 +21,7 @@ header {
   letter-spacing: 2px;
 }
 
-/* -----------------------------
-   CONTENEUR APP
------------------------------- */
+/* CONTENEUR APP */
 #app {
   display: flex;
   flex-wrap: wrap;
@@ -36,9 +30,7 @@ header {
   padding: 20px;
 }
 
-/* -----------------------------
-   CARTES
------------------------------- */
+/* CARTES */
 .card {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 25px;
@@ -56,26 +48,13 @@ header {
   transform: translateY(-5px) scale(1.05);
 }
 
-/* -----------------------------
-   TYPES DE CARTES
------------------------------- */
-.matiere {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
+/* TYPES DE CARTES */
+.matiere { font-size: 1.3rem; font-weight: 600; }
+.classe { font-size: 1.2rem; }
+.theme { font-size: 1.15rem; }
+.chapitre { font-size: 1rem; background: rgba(255,255,255,0.2); }
 
-.theme {
-  font-size: 1.2rem;
-}
-
-.chapitre {
-  font-size: 1rem;
-  background: rgba(255,255,255,0.2);
-}
-
-/* -----------------------------
-   BOUTON RETOUR
------------------------------- */
+/* BOUTON RETOUR */
 .retour {
   background: rgba(0,0,0,0.3);
   color: #fff;
@@ -84,31 +63,18 @@ header {
   padding: 10px 15px;
   margin-top: 15px;
 }
-
 .retour:hover {
   background: rgba(0,0,0,0.5);
   transform: scale(1.05);
 }
 
-/* -----------------------------
-   RESPONSIVE
------------------------------- */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-  .card {
-    min-width: 140px;
-    padding: 15px 20px;
-  }
-  header {
-    font-size: 1.7rem;
-  }
+  .card { min-width: 140px; padding: 15px 20px; }
+  header { font-size: 1.7rem; }
 }
 
 @media (max-width: 480px) {
-  #app {
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 90%;
-  }
+  #app { flex-direction: column; align-items: center; }
+  .card { width: 90%; }
 }
