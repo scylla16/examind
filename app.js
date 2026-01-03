@@ -82,7 +82,17 @@ function createCard(text) {
   return card;
 }
 
-function showMatieres() {
+function // SPLASH SCREEN
+const splash = document.getElementById("splash");
+const app = document.getElementById("app");
+app.style.display = "none"; // cache le contenu principal
+
+setTimeout(() => {
+  splash.style.display = "none"; // cache splash
+  app.style.display = "flex";   // montre contenu principal
+  showMatieres();               // lance ton flow
+}, 2000); // 2 secondes
+showMatieres() {
   app.innerHTML = "";
   for (let matiere in data) {
     const card = createCard(matiere);
