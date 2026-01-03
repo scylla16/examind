@@ -12,7 +12,7 @@ const fiches = [
   { titre: "Anglais – Future simple", type: "courte", contenu: "I will go, you will go…" },
 
   // 3 fiches longues
-  { titre: "Maths – Théorème de Thalès", type: "longue", contenu: "Si une droite est parallèle à un côté d’un triangle, alors elle détermine sur les autres côtés des segments proportionnels. Exemple d'application : ... [contenu détaillé]" },
-  { titre: "Histoire – Révolution industrielle", type: "longue", contenu: "Du XVIIIe au XIXe siècle, l’industrie se transforme grâce à l’utilisation de machines et à la mécanisation du travail. Conséquences économiques et sociales : ... [contenu détaillé]" },
-  { titre: "Français – Analyse de texte", type: "longue", contenu: "Pour analyser un texte : lire attentivement, repérer les thèmes principaux, les figures de style et le ton. Étapes : 1) Lire, 2) Souligner, 3) Résumer, 4) Interpréter ... [contenu détaillé]" }
+  { titre: "Maths – Théorème de Thalès", type: "longue", contenu: "Si une droite est parallèle à un côté d’un triangle, alors elle détermine sur les autres côtés des segments proportionnels." },
+  { titre: "Histoire – Révolution industrielle", type: "longue", contenu: "Du XVIIIe au XIXe siècle, l’industrie se transforme grâce à l’utilisation de machines et à la mécanisation du travail." },
+  { titre: "Français – Analyse de texte", type: "longue", contenu: "Pour analyser un texte : lire attentivement, repérer les thèmes principaux, les figures de style et le ton." }
 ];
