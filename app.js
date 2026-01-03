@@ -1,18 +1,127 @@
-const fiches = [
-  // 10 fiches courtes
-  { titre: "Maths – Pythagore", type: "courte", contenu: "Dans un triangle rectangle, a² + b² = c²." },
-  { titre: "Français – Figures de style", type: "courte", contenu: "Métaphore : comparaison implicite." },
-  { titre: "Histoire – Révolution Française", type: "courte", contenu: "1789 : prise de la Bastille." },
-  { titre: "SVT – Photosynthèse", type: "courte", contenu: "Plantes transforment CO2 + lumière → glucose + O2." },
-  { titre: "Anglais – Present simple", type: "courte", contenu: "I eat, you eat, he/she eats…" },
-  { titre: "Maths – Factorisation", type: "courte", contenu: "(a+b)(a-b) = a² - b²." },
-  { titre: "Français – Subjonctif", type: "courte", contenu: "Il faut que tu viennes." },
-  { titre: "Histoire – 1ère Guerre mondiale", type: "courte", contenu: "1914-1918, conflit mondial." },
-  { titre: "SVT – ADN", type: "courte", contenu: "Support de l’information génétique." },
-  { titre: "Anglais – Future simple", type: "courte", contenu: "I will go, you will go…" },
-
-  // 3 fiches longues
-  { titre: "Maths – Théorème de Thalès", type: "longue", contenu: "Si une droite est parallèle à un côté d’un triangle, alors elle détermine sur les autres côtés des segments proportionnels." },
-  { titre: "Histoire – Révolution industrielle", type: "longue", contenu: "Du XVIIIe au XIXe siècle, l’industrie se transforme grâce à l’utilisation de machines et à la mécanisation du travail." },
-  { titre: "Français – Analyse de texte", type: "longue", contenu: "Pour analyser un texte : lire attentivement, repérer les thèmes principaux, les figures de style et le ton." }
+// Données structurées : matières → thèmes → chapitres
+const data = [
+  {
+    matiere: "Maths",
+    themes: [
+      { theme: "Géométrie", chapitres: ["Triangles rectangles", "Théorème de Thalès", "Cercles", "Trigonométrie"] },
+      { theme: "Algèbre", chapitres: ["Factorisation", "Équations", "Inéquations"] },
+      { theme: "Fonctions", chapitres: ["Fonctions linéaires", "Fonctions affines", "Quadratiques"] },
+      { theme: "Probabilités", chapitres: ["Loi uniforme", "Probabilité conditionnelle"] }
+    ]
+  },
+  {
+    matiere: "Français",
+    themes: [
+      { theme: "Littérature", chapitres: ["Roman", "Poésie", "Théâtre"] },
+      { theme: "Grammaire", chapitres: ["Syntaxe", "Accords", "Conjugaison"] },
+      { theme: "Analyse de texte", chapitres: ["Figures de style", "Résumé", "Commentaire"] }
+    ]
+  },
+  {
+    matiere: "Histoire-Géo",
+    themes: [
+      { theme: "Histoire", chapitres: ["Révolution Française", "1ère Guerre mondiale", "Révolution industrielle"] },
+      { theme: "Géographie", chapitres: ["Europe", "France", "Mondialisation"] }
+    ]
+  },
+  {
+    matiere: "SVT",
+    themes: [
+      { theme: "Biologie", chapitres: ["ADN", "Cellules", "Photosynthèse"] },
+      { theme: "Écologie", chapitres: ["Écosystèmes", "Biodiversité"] }
+    ]
+  },
+  {
+    matiere: "Physique-Chimie",
+    themes: [
+      { theme: "Physique", chapitres: ["Mécanique", "Électricité", "Optique"] },
+      { theme: "Chimie", chapitres: ["Réactions chimiques", "Tableau périodique"] }
+    ]
+  },
+  {
+    matiere: "Anglais",
+    themes: [
+      { theme: "Grammaire", chapitres: ["Present simple", "Past simple", "Future simple"] },
+      { theme: "Vocabulaire", chapitres: ["Famille", "Voyage", "École"] }
+    ]
+  },
+  {
+    matiere: "Espagnol",
+    themes: [
+      { theme: "Grammaire", chapitres: ["Présent", "Passé", "Futur"] },
+      { theme: "Vocabulaire", chapitres: ["Maison", "École", "Voyage"] }
+    ]
+  },
+  {
+    matiere: "SES",
+    themes: [
+      { theme: "Économie", chapitres: ["Marché", "Inflation", "Chômage"] },
+      { theme: "Sociologie", chapitres: ["Famille", "Éducation", "Travail"] }
+    ]
+  },
+  {
+    matiere: "Philosophie",
+    themes: [
+      { theme: "Thèmes principaux", chapitres: ["Éthique", "Politique", "Connaissance"] }
+    ]
+  }
 ];
+
+// Variables pour navigation
+let currentMatiere = null;
+let currentTheme = null;
+
+// Conteneur principal
+const container = document.getElementById('fiches-container');
+
+// Fonction pour afficher les matières
+function afficherMatieres() {
+  container.innerHTML = '';
+  data.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'card matiere';
+    div.innerText = item.matiere;
+    div.onclick = () => { currentMatiere = item; afficherThemes(item); };
+    container.appendChild(div);
+  });
+}
+
+// Fonction pour afficher les thèmes d'une matière
+function afficherThemes(matiere) {
+  container.innerHTML = '';
+  // Bouton retour
+  const retour = document.createElement('button');
+  retour.className = 'retour';
+  retour.innerText = '← Retour aux matières';
+  retour.onclick = () => { currentMatiere = null; afficherMatieres(); };
+  container.appendChild(retour);
+
+  matiere.themes.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'card theme';
+    div.innerText = item.theme;
+    div.onclick = () => { currentTheme = item; afficherChapitres(item); };
+    container.appendChild(div);
+  });
+}
+
+// Fonction pour afficher les chapitres d'un thème
+function afficherChapitres(theme) {
+  container.innerHTML = '';
+  // Bouton retour
+  const retour = document.createElement('button');
+  retour.className = 'retour';
+  retour.innerText = '← Retour aux thèmes';
+  retour.onclick = () => { currentTheme = null; afficherThemes(currentMatiere); };
+  container.appendChild(retour);
+
+  theme.chapitres.forEach(chap => {
+    const div = document.createElement('div');
+    div.className = 'card chapitre';
+    div.innerText = chap;
+    container.appendChild(div);
+  });
+}
+
+// Au chargement, on affiche les matières
+afficherMatieres();
