@@ -2,66 +2,34 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>ExaMind</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f3ff;
-      color: #2d1b4e;
-      margin: 0;
-    }
-    header {
-      background: #6d28d9;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .container {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    }
-    button {
-      background-color: #6d28d9;
-      color: white;
-      border: none;
-      padding: 14px 28px;
-      font-size: 18px;
-      border-radius: 12px;
-      cursor: pointer;
-      margin: 20px auto;
-      display: block;
-    }
-  </style>
+  <title>ExaMind - Fiches</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>ExaMind</header>
 
-  <div class="container">
-    <button id="demarrer">Commencer</button>
-
-    <div id="fiches" style="display:none;">
-      <!-- Les fiches seront injectées ici par app.js -->
-    </div>
+  <div class="container" id="fiches-container">
+    <!-- Les fiches seront injectées ici par app.js -->
   </div>
 
   <script src="app.js"></script>
   <script>
-    const container = document.getElementById('fiches');
-    const btn = document.getElementById('demarrer');
+    const container = document.getElementById('fiches-container');
 
-    btn.addEventListener('click', () => {
-      // Masquer le bouton
-      btn.style.display = 'none';
-      // Afficher les fiches
-      container.style.display = 'block'
+    if(typeof fiches !== "undefined") {
+      fiches.forEach(fiche => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.innerHTML = `<h3>${fiche.titre} (${fiche.type})</h3><p>${fiche.contenu}</p>`;
+        container.appendChild(div);
+      });
+    } else {
+      container.innerHTML = "<p>Aucune fiche disponible pour l'instant.</p>";
+    }
+  </script>
+
+</body>
+</html>
+
 
