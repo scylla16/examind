@@ -1,3 +1,15 @@
+/* BODY + FOND */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #6a0dad, #4b0082, #3a0ca3, #5f0f40);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 /* SPLASH SCREEN */
 #splash {
   position: fixed;
@@ -20,10 +32,9 @@
   background: linear-gradient(to right, #00f0ff, #b266ff);
   opacity: 0.6;
   transform: translateX(-100%);
-  animation: slide 2s ease-in-out forwards; /* ici on enlève "infinite" */
+  animation: slide 2s ease-in-out forwards;
 }
 
-/* Décaler les lignes pour effet stylé */
 .line:nth-child(2) { animation-delay: 0.3s; top: 30%; }
 .line:nth-child(3) { animation-delay: 0.6s; top: 60%; }
 
@@ -33,124 +44,34 @@
   100% { transform: translateX(100%); }
 }
 
-/* Optionnel : fade out pour le splash */
 #splash.fadeOut {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
-/* RESET DE BASE */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* SPLASH SCREEN */
-#splash {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #6a0dad, #4b0082, #3a0ca3, #5f0f40);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  z-index: 999;
-}
-
-.line {
-  position: absolute;
-  width: 150%;
-  height: 4px;
-  background: linear-gradient(to right, #00f0ff, #b266ff);
-  opacity: 0.6;
-  transform: translateX(-100%);
-  animation: slide 2s ease-in-out infinite;
-}
-
-/* décaler les lignes pour effet décalé */
-.line:nth-child(2) { animation-delay: 0.3s; top: 30%; }
-.line:nth-child(3) { animation-delay: 0.6s; top: 60%; }
-
-@keyframes slide {
-  0% { transform: translateX(-100%); }
-  50% { transform: translateX(0); }
-  100% { transform: translateX(100%); }
-}
-
-body {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #6a0dad, #b266ff);
-  color: #fff;
-}
-
-/* HEADER */
-header {
-  text-align: center;
-  padding: 20px;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-/* CONTENEUR APP */
+/* APP PRINCIPAL */
 #app {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
   padding: 20px;
+  gap: 20px;
+  width: 100%;
 }
 
-/* CARTES */
+/* CARTES DES MATIERES */
 .card {
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px 25px;
-  border-radius: 15px;
-  min-width: 180px;
-  max-width: 250px;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  width: 200px;
   text-align: center;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, background 0.3s;
 }
 
 .card:hover {
+  transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-5px) scale(1.05);
-}
-
-/* TYPES DE CARTES */
-.matiere { font-size: 1.3rem; font-weight: 600; }
-.classe { font-size: 1.2rem; }
-.theme { font-size: 1.15rem; }
-.chapitre { font-size: 1rem; background: rgba(255,255,255,0.2); }
-
-/* BOUTON RETOUR */
-.retour {
-  background: rgba(0,0,0,0.3);
-  color: #fff;
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 10px 15px;
-  margin-top: 15px;
-}
-.retour:hover {
-  background: rgba(0,0,0,0.5);
-  transform: scale(1.05);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .card { min-width: 140px; padding: 15px 20px; }
-  header { font-size: 1.7rem; }
-}
-
-@media (max-width: 480px) {
-  #app { flex-direction: column; align-items: center; }
-  .card { width: 90%; }
 }
