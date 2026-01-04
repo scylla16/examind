@@ -1,102 +1,80 @@
-/* BODY + FOND */
+/* ---- BODY ---- */
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #6a0dad, #4b0082, #3a0ca3, #5f0f40);
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6A0DAD, #8A2BE2);
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 
-/* SPLASH SCREEN */
-#splash {
-  position: fixed;
-  top: 0;
-  left: 0;
+/* ---- BARRE DE RECHERCHE ---- */
+.search-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#searchInput {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #6a0dad, #4b0082, #3a0ca3, #5f0f40);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  z-index: 999;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
 }
 
-.line {
-  position: absolute;
-  width: 150%;
-  height: 4px;
-  background: linear-gradient(to right, #00f0ff, #b266ff);
-  opacity: 0.6;
-  transform: translateX(-100%);
-  animation: slide 2s ease-in-out forwards;
+#searchInput:focus {
+  border-color: #6A0DAD;
+  box-shadow: 0 0 5px #fff;
 }
 
-.line:nth-child(2) { animation-delay: 0.3s; top: 30%; }
-.line:nth-child(3) { animation-delay: 0.6s; top: 60%; }
-
-@keyframes slide {
-  0% { transform: translateX(-100%); }
-  50% { transform: translateX(0); }
-  100% { transform: translateX(100%); }
-}
-
-#splash.fadeOut {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-/* APP PRINCIPAL */
-#app {
+/* ---- CONTENEUR CARDS ---- */
+#content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  gap: 20px;
-  width: 100%;
 }
 
-/* CARTES DES MATIERES */
+/* ---- CARTES ---- */
 .card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
-  border-radius: 12px;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin: 10px;
   cursor: pointer;
-  transition: transform 0.3s, background 0.3s;
-}
-
-/* BARRE DE RECHERCHE */
-#search-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 25px;
-}
-
-#searchInput {
-  width: 90%;
-  max-width: 400px;
-  padding: 14px 18px;
-  border-radius: 999px; /* effet Google */
-  border: none;
-  outline: none;
-  font-size: 16px;
-  background: white;
-  color: #333;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-}
-
-#searchInput::placeholder {
-  color: #999;
+  min-width: 200px;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .card:hover {
+  background: rgba(255, 255, 255, 0.3);
   transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ---- TITRE EXAMIND ---- */
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* ---- RESPONSIVE ---- */
+@media screen and (max-width: 600px) {
+  .card {
+    min-width: 150px;
+    padding: 15px 20px;
+  }
+
+  header {
+    font-size: 28px;
+  }
 }
