@@ -180,6 +180,80 @@ const data = {
       "Synthèse de textes"
     ]
   }
+},
+// ================== ANGLAIS ==================
+"Anglais": {
+  "3e": {
+    "Grammaire": [
+      "Présent simple et continu",
+      "Passé simple et continu",
+      "Futur simple",
+      "Pronoms personnels et possessifs",
+      "Articles définis et indéfinis"
+    ],
+    "Vocabulaire": [
+      "Famille",
+      "École",
+      "Loisirs",
+      "Maison"
+    ],
+    "Expression écrite": [
+      "Rédaction courte",
+      "Dialogues simples"
+    ]
+  },
+  "2nde": {
+    "Grammaire": [
+      "Présent, past perfect, future",
+      "Subjonctif et conditionnel",
+      "Pronoms relatifs",
+      "Comparatifs et superlatifs"
+    ],
+    "Vocabulaire": [
+      "Voyage",
+      "Santé",
+      "Alimentation",
+      "École"
+    ],
+    "Expression écrite": [
+      "Rédaction argumentée",
+      "Courriers formels"
+    ]
+  },
+  "1ère": {
+    "Grammaire": [
+      "Subjonctif avancé",
+      "Discours indirect",
+      "Pronoms complexes",
+      "Comparatif et superlatif avancés"
+    ],
+    "Vocabulaire": [
+      "Culture et société",
+      "Économie",
+      "Environnement"
+    ],
+    "Expression écrite": [
+      "Rédaction structurée",
+      "Résumé et synthèse"
+    ]
+  },
+  "Terminale": {
+    "Grammaire": [
+      "Subjonctif parfait",
+      "Voix passive",
+      "Discours indirect avancé",
+      "Structures complexes"
+    ],
+    "Vocabulaire": [
+      "Politique",
+      "Économie mondiale",
+      "Littérature"
+    ],
+    "Expression écrite": [
+      "Commentaire de texte",
+      "Essai argumentatif"
+    ]
+  }
 }
 
 };
