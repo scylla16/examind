@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Examind</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExaMind</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- TITRE -->
+  <header>ExaMind</header>
 
-  <header>
-    <h1>Examind</h1>
-    <input type="text" placeholder="Rechercher une matière, un chapitre..." />
-  </header>
+  <!-- BARRE DE RECHERCHE -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Rechercher une matière, thème ou chapitre...">
+  </div>
 
-  <main id="content">
-    <!-- Le contenu dynamique arrive ici -->
-  </main>
+  <!-- CONTENU DYNAMIQUE -->
+  <div id="content"></div>
 
+  <!-- SCRIPT APP.JS -->
   <script src="app.js"></script>
 </body>
 </html>
