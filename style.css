@@ -71,6 +71,31 @@ body {
   transition: transform 0.3s, background 0.3s;
 }
 
+/* BARRE DE RECHERCHE */
+#search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#searchInput {
+  width: 90%;
+  max-width: 400px;
+  padding: 14px 18px;
+  border-radius: 999px; /* effet Google */
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: white;
+  color: #333;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+#searchInput::placeholder {
+  color: #999;
+}
+
 .card:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
