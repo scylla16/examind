@@ -105,7 +105,83 @@ const data = {
         "Produit scalaire et distance"
       ]
     }
+  },
+  // ================== FRANÇAIS ==================
+"Français": {
+  "3e": {
+    "Lecture et compréhension": [
+      "Lecture analytique de textes",
+      "Figures de style",
+      "Genres et registres",
+      "Résumé et reformulation"
+    ],
+    "Grammaire": [
+      "Classes de mots",
+      "Conjugaison",
+      "Accord sujet/verbe et adjectif",
+      "Pronoms et déterminants",
+      "Subordonnées"
+    ],
+    "Orthographe et vocabulaire": [
+      "Homonymes",
+      "Mots invariables",
+      "Synonymes et antonymes",
+      "Racines et préfixes/suffixes"
+    ],
+    "Rédaction": [
+      "Écriture d’invention",
+      "Résumé, compte rendu",
+      "Lettre et dialogue",
+      "Argumentation simple"
+    ],
+    "Littérature": [
+      "Romans, contes, nouvelles",
+      "Poésie",
+      "Théâtre",
+      "Textes étudiés au programme"
+    ]
+  },
+  "2nde": {
+    "Lecture": [
+      "Textes narratifs",
+      "Textes descriptifs",
+      "Textes argumentatifs"
+    ],
+    "Grammaire": [
+      "Phrase complexe",
+      "Subordonnées relatives",
+      "Accords",
+      "Conjugaison"
+    ],
+    "Rédaction": [
+      "Résumé de textes",
+      "Rédaction argumentée",
+      "Commentaire composé"
+    ]
+  },
+  "1ère": {
+    "Lecture": [
+      "Analyse des textes littéraires",
+      "Figures de style avancées"
+    ],
+    "Rédaction": [
+      "Dissertation",
+      "Commentaire de texte",
+      "Écriture d’invention"
+    ]
+  },
+  "Terminale": {
+    "Lecture": [
+      "Analyse des œuvres complètes",
+      "Poésie classique et moderne"
+    ],
+    "Rédaction": [
+      "Dissertation philosophique et littéraire",
+      "Synthèse de textes"
+    ]
   }
+}
+
 };
 
 // ------------------- LOGIQUE DE NAVIGATION -------------------
