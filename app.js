@@ -254,7 +254,101 @@ const data = {
       "Essai argumentatif"
     ]
   }
+},
+  "Histoire-Géographie": {
+  "3e": {
+    "Histoire": [
+      "La Première Guerre mondiale : une guerre totale",
+      "La Révolution russe et l’URSS",
+      "Les régimes totalitaires (nazisme, stalinisme)",
+      "La Seconde Guerre mondiale : guerre d’anéantissement",
+      "La France sous l’Occupation",
+      "La création de l’ONU",
+      "La Guerre froide",
+      "La décolonisation",
+      "La Ve République"
+    ],
+    "Géographie": [
+      "Les espaces productifs",
+      "Les métropoles",
+      "Les mobilités humaines",
+      "Les inégalités de développement",
+      "La mondialisation",
+      "Les aires urbaines",
+      "Les territoires français",
+      "L’Union européenne"
+    ]
+  },
+
+  "2nde": {
+    "Histoire": [
+      "Les débuts de l’humanité",
+      "La révolution néolithique",
+      "Les sociétés antiques",
+      "Athènes et la démocratie",
+      "Rome : de la République à l’Empire",
+      "Le Moyen Âge : seigneurs et paysans",
+      "L’Islam et les échanges médiévaux",
+      "La Renaissance",
+      "Les Grandes découvertes"
+    ],
+    "Géographie": [
+      "Les sociétés face aux risques",
+      "Les ressources naturelles",
+      "Les sociétés et l’environnement",
+      "Les espaces urbains",
+      "Les mobilités humaines",
+      "Les territoires de proximité",
+      "La ville durable"
+    ]
+  },
+
+  "1ère": {
+    "Histoire": [
+      "L’Europe dans le monde au XIXe siècle",
+      "La Révolution française",
+      "La France et la République",
+      "L’industrialisation",
+      "La colonisation",
+      "La Première Guerre mondiale",
+      "Les totalitarismes",
+      "La Seconde Guerre mondiale"
+    ],
+    "Géographie": [
+      "Les dynamiques territoriales",
+      "La mondialisation",
+      "Les espaces productifs",
+      "Les métropoles",
+      "La France dans l’Union européenne",
+      "Les territoires ruraux",
+      "Les inégalités territoriales"
+    ]
+  },
+
+  "Terminale": {
+    "Histoire": [
+      "La Guerre froide",
+      "Les États-Unis et le monde",
+      "L’URSS puis la Russie",
+      "La construction européenne",
+      "La France depuis 1945",
+      "Les mémoires de la Seconde Guerre mondiale",
+      "Les conflits depuis 1991",
+      "Le terrorisme"
+    ],
+    "Géographie": [
+      "Les pôles de la mondialisation",
+      "Les flux mondiaux",
+      "Les frontières",
+      "Les espaces maritimes",
+      "Les États-Unis : puissance mondiale",
+      "La Chine : émergence et puissance",
+      "L’Afrique : développement et défis",
+      "La France et ses territoires"
+    ]
+  }
 }
+
 
 };
 
