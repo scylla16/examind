@@ -347,6 +347,112 @@ const data = {
       "La France et ses territoires"
     ]
   }
+},
+"Physique-Chimie": {
+  "3e": {
+    "Physique": [
+      "Organisation et transformation de la matière",
+      "États de la matière",
+      "Masse volumique",
+      "Les atomes et les molécules",
+      "Réactions chimiques",
+      "Conservation de la masse",
+      "L’énergie et ses conversions",
+      "Puissance et énergie électrique",
+      "Mouvement et trajectoire",
+      "Vitesse moyenne",
+      "Forces et interactions",
+      "Poids et gravitation"
+    ],
+    "Chimie": [
+      "Corps purs et mélanges",
+      "Solutions aqueuses",
+      "pH et acidité",
+      "Réactions chimiques simples",
+      "Combustions",
+      "Oxydation",
+      "Transformation chimique"
+    ]
+  },
+
+  "2nde": {
+    "Physique": [
+      "Description du mouvement",
+      "Vecteurs vitesse et accélération",
+      "Forces et lois de Newton",
+      "Poids et masse",
+      "Énergie cinétique",
+      "Énergie potentielle",
+      "Conversions d’énergie",
+      "Ondes et signaux",
+      "Lumière et spectre",
+      "Propagation des ondes"
+    ],
+    "Chimie": [
+      "Structure de l’atome",
+      "Tableau périodique",
+      "Configuration électronique",
+      "Liaisons chimiques",
+      "Transformations chimiques",
+      "Réactions acide-base",
+      "Quantité de matière",
+      "Mole",
+      "Réactif limitant"
+    ]
+  },
+
+  "1ère": {
+    "Physique": [
+      "Mouvements et forces",
+      "Deuxième loi de Newton",
+      "Travail et énergie",
+      "Conservation de l’énergie",
+      "Ondes mécaniques",
+      "Ondes lumineuses",
+      "Diffraction",
+      "Signaux périodiques",
+      "Tension et intensité",
+      "Circuits électriques"
+    ],
+    "Chimie": [
+      "Transformations acide-base",
+      "pH et solutions",
+      "Oxydoréduction",
+      "Avancement d’une réaction",
+      "Cinétique chimique",
+      "Équations chimiques",
+      "Dosages",
+      "Énergie chimique"
+    ]
+  },
+
+  "Terminale": {
+    "Physique": [
+      "Cinématique",
+      "Mouvement rectiligne uniforme",
+      "Mouvement uniformément accéléré",
+      "Lois de Newton",
+      "Énergie mécanique",
+      "Travail des forces",
+      "Ondes et signaux",
+      "Effet Doppler",
+      "Lumière et photons",
+      "Dualité onde-corpuscule",
+      "Radioactivité",
+      "Noyau atomique"
+    ],
+    "Chimie": [
+      "Transformations acide-base avancées",
+      "Transformations d’oxydoréduction",
+      "Cinétique chimique avancée",
+      "Équilibre chimique",
+      "Synthèse organique",
+      "Groupes fonctionnels",
+      "Réactions d’estérification",
+      "Dosages avancés",
+      "Énergie et enthalpie"
+    ]
+  }
 }
 
 
