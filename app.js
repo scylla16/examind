@@ -454,7 +454,7 @@ const data = {
     ]
   }
 },
-,
+
 "SES (Sciences Économiques et Sociales)": {
   "2nde": {
     "Introduction à l’économie": [
