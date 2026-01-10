@@ -564,8 +564,6 @@ const data = {
       "Environnement et développement durable"
     ]
   }
-}
-
 
 };
 
