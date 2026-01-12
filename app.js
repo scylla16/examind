@@ -511,6 +511,79 @@ const data = {
       "Les formes de participation politique"
     ]
   }
+},
+"SVT (Sciences de la Vie et de la Terre)": {
+  "3e": {
+    "Le vivant et son évolution": [
+      "Diversité génétique",
+      "Sélection naturelle",
+      "Évolution des espèces"
+    ],
+    "Le corps humain et la santé": [
+      "Fonctionnement du système nerveux",
+      "Reproduction humaine",
+      "Comportements responsables"
+    ],
+    "La planète Terre": [
+      "Tectonique des plaques",
+      "Séismes et volcans",
+      "Histoire de la Terre"
+    ]
+  },
+
+  "2nde": {
+    "La cellule": [
+      "Structure de la cellule",
+      "Division cellulaire",
+      "Différenciation cellulaire"
+    ],
+    "Le vivant": [
+      "Organisation du vivant",
+      "Biodiversité",
+      "Écosystèmes"
+    ],
+    "La Terre": [
+      "Géologie externe",
+      "Érosion",
+      "Sédimentation"
+    ]
+  },
+
+  "1ère": {
+    "Génétique": [
+      "Expression du patrimoine génétique",
+      "Mutations",
+      "Transmission génétique"
+    ],
+    "Corps humain et santé": [
+      "Système immunitaire",
+      "Vaccination",
+      "Santé publique"
+    ],
+    "Enjeux planétaires": [
+      "Changements climatiques",
+      "Ressources naturelles",
+      "Impact de l’Homme"
+    ]
+  },
+
+  "Terminale": {
+    "Génétique et évolution": [
+      "Brassage génétique",
+      "Sélection naturelle",
+      "Spéciation"
+    ],
+    "Physiologie humaine": [
+      "Fonctionnement du cerveau",
+      "Régulation hormonale",
+      "Maintien de l’équilibre interne"
+    ],
+    "Géosciences": [
+      "Structure interne de la Terre",
+      "Dynamique du globe",
+      "Risques géologiques"
+    ]
+  }
 }
 
 };
