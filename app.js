@@ -348,6 +348,88 @@ const data = {
     ]
   }
 },
+"SES (Sciences Économiques et Sociales)": {
+  "2nde": {
+    "Introduction à l’économie": [
+      "Qu’est-ce que l’économie ?",
+      "Besoins, ressources et rareté",
+      "Production, répartition, consommation",
+      "Agents économiques"
+    ],
+    "Marchés": [
+      "Offre et demande",
+      "Formation des prix",
+      "Rôle du marché",
+      "Concurrence et monopole"
+    ],
+    "Monnaie": [
+      "Rôle de la monnaie",
+      "Fonctions de la monnaie",
+      "Échanges marchands et non marchands"
+    ],
+    "Introduction à la sociologie": [
+      "Socialisation",
+      "Normes et valeurs",
+      "Groupes sociaux",
+      "Culture"
+    ]
+  },
+
+  "1ère": {
+    "Science économique": [
+      "Création de richesses",
+      "Valeur ajoutée",
+      "Productivité",
+      "Croissance économique",
+      "Limites de la croissance"
+    ],
+    "Marché du travail": [
+      "Offre et demande de travail",
+      "Salaire",
+      "Chômage",
+      "Politiques de l’emploi"
+    ],
+    "Sociologie": [
+      "Processus de socialisation",
+      "Contrôle social",
+      "Déviance",
+      "Instances de socialisation"
+    ],
+    "Science politique": [
+      "Pouvoir politique",
+      "État",
+      "Démocratie",
+      "Citoyenneté",
+      "Participation politique"
+    ]
+  },
+
+  "Terminale": {
+    "Science économique": [
+      "Croissance et fluctuations",
+      "Crises économiques",
+      "Inflation",
+      "Chômage",
+      "Politiques économiques",
+      "Mondialisation",
+      "Commerce international"
+    ],
+    "Sociologie": [
+      "Structure sociale",
+      "Classes sociales",
+      "Inégalités",
+      "Mobilité sociale",
+      "Cohésion sociale"
+    ],
+    "Science politique": [
+      "Démocratie représentative",
+      "Opinion publique",
+      "Partis politiques",
+      "Mouvements sociaux",
+      "Action collective"
+    ]
+  }
+},
 "Physique-Chimie": {
   "3e": {
     "Physique": [
