@@ -348,88 +348,7 @@ const data = {
     ]
   }
 },
-"SES (Sciences Économiques et Sociales)": {
-  "2nde": {
-    "Introduction à l’économie": [
-      "Qu’est-ce que l’économie ?",
-      "Besoins, ressources et rareté",
-      "Production, répartition, consommation",
-      "Agents économiques"
-    ],
-    "Marchés": [
-      "Offre et demande",
-      "Formation des prix",
-      "Rôle du marché",
-      "Concurrence et monopole"
-    ],
-    "Monnaie": [
-      "Rôle de la monnaie",
-      "Fonctions de la monnaie",
-      "Échanges marchands et non marchands"
-    ],
-    "Introduction à la sociologie": [
-      "Socialisation",
-      "Normes et valeurs",
-      "Groupes sociaux",
-      "Culture"
-    ]
-  },
 
-  "1ère": {
-    "Science économique": [
-      "Création de richesses",
-      "Valeur ajoutée",
-      "Productivité",
-      "Croissance économique",
-      "Limites de la croissance"
-    ],
-    "Marché du travail": [
-      "Offre et demande de travail",
-      "Salaire",
-      "Chômage",
-      "Politiques de l’emploi"
-    ],
-    "Sociologie": [
-      "Processus de socialisation",
-      "Contrôle social",
-      "Déviance",
-      "Instances de socialisation"
-    ],
-    "Science politique": [
-      "Pouvoir politique",
-      "État",
-      "Démocratie",
-      "Citoyenneté",
-      "Participation politique"
-    ]
-  },
-
-  "Terminale": {
-    "Science économique": [
-      "Croissance et fluctuations",
-      "Crises économiques",
-      "Inflation",
-      "Chômage",
-      "Politiques économiques",
-      "Mondialisation",
-      "Commerce international"
-    ],
-    "Sociologie": [
-      "Structure sociale",
-      "Classes sociales",
-      "Inégalités",
-      "Mobilité sociale",
-      "Cohésion sociale"
-    ],
-    "Science politique": [
-      "Démocratie représentative",
-      "Opinion publique",
-      "Partis politiques",
-      "Mouvements sociaux",
-      "Action collective"
-    ]
-  }
-},
 "Physique-Chimie": {
   "3e": {
     "Physique": [
@@ -533,6 +452,63 @@ const data = {
       "Réactions d’estérification",
       "Dosages avancés",
       "Énergie et enthalpie"
+    ]
+  }
+},
+"SES (Sciences Économiques et Sociales)": {
+  "2nde": {
+    "Économie": [
+      "Les acteurs économiques",
+      "La production de richesses",
+      "La consommation",
+      "Les entreprises et la valeur ajoutée"
+    ],
+    "Sociologie": [
+      "Socialisation",
+      "Groupes sociaux",
+      "Normes et déviance"
+    ],
+    "Science politique": [
+      "Pouvoir et décision politique",
+      "Participation politique"
+    ]
+  },
+
+  "1ère": {
+    "Économie": [
+      "Le fonctionnement du marché",
+      "L’offre et la demande",
+      "La formation des prix",
+      "Les défaillances du marché"
+    ],
+    "Sociologie": [
+      "La stratification sociale",
+      "Classes sociales",
+      "Mobilité sociale"
+    ],
+    "Science politique": [
+      "L’État",
+      "La démocratie",
+      "Les partis politiques"
+    ]
+  },
+
+  "Terminale": {
+    "Économie": [
+      "La croissance économique",
+      "Le chômage",
+      "L’inflation",
+      "Les politiques économiques"
+    ],
+    "Sociologie": [
+      "Les inégalités sociales",
+      "Justice sociale",
+      "Cohésion sociale"
+    ],
+    "Science politique": [
+      "L’engagement politique",
+      "L’action collective",
+      "Les formes de participation politique"
     ]
   }
 }
