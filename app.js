@@ -584,6 +584,109 @@ const data = {
       "Risques géologiques"
     ]
   }
+},
+"Espagnol": {
+  "3e": {
+    "Grammaire": [
+      "Présent de l’indicatif",
+      "Verbes réguliers et irréguliers",
+      "Ser et estar",
+      "Articles et accords",
+      "Pronoms personnels"
+    ],
+    "Vocabulaire": [
+      "Famille",
+      "École",
+      "Loisirs",
+      "Maison",
+      "Temps et météo"
+    ],
+    "Expression écrite": [
+      "Rédaction courte",
+      "Description simple",
+      "Dialogue"
+    ],
+    "Culture": [
+      "Espagne et pays hispanophones",
+      "Fêtes et traditions",
+      "Vie quotidienne"
+    ]
+  },
+
+  "2nde": {
+    "Grammaire": [
+      "Passé composé",
+      "Imparfait",
+      "Futur",
+      "Conditionnel",
+      "Comparatifs et superlatifs"
+    ],
+    "Vocabulaire": [
+      "Voyage",
+      "Santé",
+      "Alimentation",
+      "Technologie"
+    ],
+    "Expression écrite": [
+      "Récit au passé",
+      "Opinion argumentée",
+      "Lettre et email"
+    ],
+    "Civilisation": [
+      "Histoire de l’Espagne",
+      "Pays d’Amérique latine",
+      "Société contemporaine"
+    ]
+  },
+
+  "1ère": {
+    "Grammaire": [
+      "Subjonctif présent",
+      "Discours indirect",
+      "Voix passive",
+      "Périphrases verbales"
+    ],
+    "Vocabulaire": [
+      "Culture et arts",
+      "Politique et société",
+      "Environnement"
+    ],
+    "Expression écrite": [
+      "Rédaction structurée",
+      "Analyse de documents",
+      "Essai argumentatif"
+    ],
+    "Civilisation": [
+      "Mémoire et histoire",
+      "Identités culturelles",
+      "Monde hispanique moderne"
+    ]
+  },
+
+  "Terminale": {
+    "Grammaire": [
+      "Subjonctif imparfait",
+      "Concordance des temps",
+      "Structures complexes",
+      "Registres de langue"
+    ],
+    "Vocabulaire": [
+      "Politique",
+      "Économie",
+      "Migrations",
+      "Relations internationales"
+    ],
+    "Expression écrite": [
+      "Synthèse de documents",
+      "Essai argumentatif avancé",
+      "Commentaire critique"
+    ],
+    "Civilisation": [
+      "Espagne contemporaine",
+      "Amérique latine",
+      "Enjeux géopolitiques"
+    ]
+  }
 }
 
 };
