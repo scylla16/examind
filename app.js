@@ -977,6 +977,108 @@ const data = {
     ]
   }
 },
+"Philosophie": {
+  "Terminale": {
+    "La conscience": [
+      "Conscience et inconscient",
+      "Conscience de soi",
+      "L’identité personnelle",
+      "Mémoire et oubli",
+      "Responsabilité morale"
+    ],
+    "La liberté": [
+      "Liberté et déterminisme",
+      "Libre arbitre",
+      "Liberté politique",
+      "Contraintes sociales",
+      "Responsabilité et choix"
+    ],
+    "Le bonheur": [
+      "Bonheur et plaisir",
+      "Désir et satisfaction",
+      "Bonheur et vertu",
+      "Bonheur individuel et collectif",
+      "Bonheur et société"
+    ],
+    "Le devoir": [
+      "Devoir moral",
+      "Obligation et contrainte",
+      "Morale et loi",
+      "Justice et devoir",
+      "Responsabilité"
+    ],
+    "La vérité": [
+      "Opinion et vérité",
+      "Science et vérité",
+      "Raison et expérience",
+      "Erreur et illusion",
+      "Relativisme"
+    ],
+    "La justice": [
+      "Justice et droit",
+      "Égalité et équité",
+      "Justice sociale",
+      "Justice et violence",
+      "Punition et responsabilité"
+    ],
+    "L’État": [
+      "Origine de l’État",
+      "Pouvoir politique",
+      "Autorité et légitimité",
+      "Démocratie",
+      "Lois et institutions"
+    ],
+    "La société": [
+      "Nature et culture",
+      "Vie sociale",
+      "Normes et règles",
+      "Travail et société",
+      "Aliénation"
+    ],
+    "La religion": [
+      "Foi et raison",
+      "Religion et morale",
+      "Religion et politique",
+      "Athéisme",
+      "Spiritualité"
+    ],
+    "La science": [
+      "Science et technique",
+      "Méthode scientifique",
+      "Progrès scientifique",
+      "Science et vérité",
+      "Limites de la science"
+    ],
+    "L’art": [
+      "Art et beauté",
+      "Art et technique",
+      "Œuvre d’art",
+      "Imitation et création",
+      "Art et société"
+    ],
+    "Le langage": [
+      "Langage et pensée",
+      "Langage et communication",
+      "Signification",
+      "Langage et vérité",
+      "Langage et pouvoir"
+    ],
+    "Le temps": [
+      "Temps vécu",
+      "Temps objectif",
+      "Mémoire et durée",
+      "Temps et histoire",
+      "Temporalité humaine"
+    ],
+    "Le travail": [
+      "Travail et nécessité",
+      "Travail et liberté",
+      "Technique",
+      "Aliénation du travail",
+      "Travail et société"
+    ]
+  }
+},
 
 };
 
