@@ -348,6 +348,117 @@ const data = {
     ]
   }
 },
+"EMC": {
+  "3e": {
+    "La citoyenneté et la démocratie": [
+      "Valeurs de la République",
+      "Liberté, égalité, fraternité",
+      "La laïcité",
+      "Les symboles de la République",
+      "Le rôle du citoyen"
+    ],
+    "Les droits et devoirs": [
+      "Droits de l’Homme",
+      "Libertés fondamentales",
+      "Devoirs du citoyen",
+      "Responsabilité individuelle",
+      "Respect des lois"
+    ],
+    "La justice": [
+      "Rôle de la justice",
+      "Les principes de la justice",
+      "Droits et devoirs devant la loi",
+      "Justice des mineurs",
+      "Sanctions et peines"
+    ],
+    "L’engagement": [
+      "Engagement associatif",
+      "Engagement citoyen",
+      "Solidarité",
+      "Défense nationale",
+      "Mémoire et commémorations"
+    ]
+  },
+
+  "2nde": {
+    "Liberté et responsabilité": [
+      "Liberté individuelle",
+      "Responsabilité personnelle",
+      "Liberté d’expression",
+      "Limites de la liberté",
+      "Respect d’autrui"
+    ],
+    "Égalité et discriminations": [
+      "Principe d’égalité",
+      "Discriminations",
+      "Égalité femmes-hommes",
+      "Lutte contre le racisme",
+      "Inclusion sociale"
+    ],
+    "Citoyenneté et engagement": [
+      "Citoyenneté française et européenne",
+      "Engagement civique",
+      "Associations",
+      "Service national universel",
+      "Participation démocratique"
+    ]
+  },
+
+  "1ère": {
+    "La démocratie": [
+      "Principes démocratiques",
+      "Suffrage universel",
+      "Pluralisme politique",
+      "Rôle des partis",
+      "Participation citoyenne"
+    ],
+    "L’État de droit": [
+      "Séparation des pouvoirs",
+      "Constitution",
+      "Hiérarchie des normes",
+      "Justice et égalité devant la loi",
+      "Libertés publiques"
+    ],
+    "La société et ses valeurs": [
+      "Solidarité",
+      "Justice sociale",
+      "Tolérance",
+      "Respect de la diversité",
+      "Cohésion sociale"
+    ]
+  },
+
+  "Terminale": {
+    "La République et ses valeurs": [
+      "Laïcité",
+      "Liberté de conscience",
+      "Neutralité de l’État",
+      "Valeurs républicaines",
+      "Citoyenneté active"
+    ],
+    "La démocratie et ses défis": [
+      "Abstention",
+      "Crise de la représentation",
+      "Populisme",
+      "Médias et opinion publique",
+      "Fake news"
+    ],
+    "L’engagement et la responsabilité": [
+      "Engagement politique",
+      "Engagement associatif",
+      "Responsabilité collective",
+      "Développement durable",
+      "Citoyenneté mondiale"
+    ],
+    "Droits humains et justice internationale": [
+      "Droits humains",
+      "Organisations internationales",
+      "Cour pénale internationale",
+      "Justice internationale",
+      "Solidarité internationale"
+    ]
+  }
+},
 
 "Physique-Chimie": {
   "3e": {
