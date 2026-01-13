@@ -687,6 +687,106 @@ const data = {
       "Enjeux géopolitiques"
     ]
   }
+},
+"Allemand": {
+  "3e": {
+    "Grammaire": [
+      "Présent de l’indicatif",
+      "Verbes réguliers et irréguliers",
+      "Articles définis et indéfinis",
+      "Cas : nominatif et accusatif",
+      "Pronoms personnels"
+    ],
+    "Vocabulaire": [
+      "Se présenter",
+      "Famille",
+      "École",
+      "Loisirs",
+      "Vie quotidienne"
+    ],
+    "Compréhension": [
+      "Compréhension écrite simple",
+      "Compréhension orale simple"
+    ],
+    "Expression": [
+      "Phrases simples",
+      "Dialogues courts",
+      "Descriptions courtes"
+    ]
+  },
+
+  "2nde": {
+    "Grammaire": [
+      "Prétérit",
+      "Parfait",
+      "Futur",
+      "Cas : datif",
+      "Prépositions courantes"
+    ],
+    "Vocabulaire": [
+      "Voyages",
+      "Santé",
+      "Alimentation",
+      "Logement",
+      "Relations sociales"
+    ],
+    "Compréhension": [
+      "Textes narratifs simples",
+      "Documents audio"
+    ],
+    "Expression": [
+      "Rédaction courte",
+      "Description d’expériences",
+      "Opinion simple"
+    ]
+  },
+
+  "1ère": {
+    "Grammaire": [
+      "Subordonnées",
+      "Voix passive",
+      "Discours indirect",
+      "Révision des cas"
+    ],
+    "Vocabulaire": [
+      "Société",
+      "Culture",
+      "Environnement",
+      "Travail et avenir"
+    ],
+    "Compréhension": [
+      "Textes argumentatifs",
+      "Articles de presse"
+    ],
+    "Expression": [
+      "Rédaction structurée",
+      "Argumentation",
+      "Synthèse courte"
+    ]
+  },
+
+  "Terminale": {
+    "Grammaire": [
+      "Structures complexes",
+      "Subordonnées avancées",
+      "Nuances de temps et modes"
+    ],
+    "Vocabulaire": [
+      "Politique",
+      "Économie",
+      "Histoire et mémoire",
+      "Débats contemporains"
+    ],
+    "Compréhension": [
+      "Textes longs",
+      "Documents authentiques"
+    ],
+    "Expression": [
+      "Essai argumentatif",
+      "Analyse de documents",
+      "Expression d’un point de vue nuancé"
+    ]
+  }
 }
 
 };
