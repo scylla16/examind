@@ -788,7 +788,84 @@ const data = {
       "Expression d’un point de vue nuancé"
     ]
   }
-}
+},
+"HGGSP": {
+  "1ère": {
+    "Comprendre un régime politique : la démocratie": [
+      "Définition de la démocratie",
+      "Démocratie directe et représentative",
+      "Citoyenneté et participation politique",
+      "Pluralisme politique",
+      "Les limites de la démocratie"
+    ],
+    "Analyser les dynamiques des puissances internationales": [
+      "Notion de puissance",
+      "Hard power et soft power",
+      "Les États-Unis comme puissance mondiale",
+      "La Chine : émergence d’une puissance",
+      "Les puissances régionales"
+    ],
+    "Étudier les divisions politiques du monde": [
+      "Frontières et conflits",
+      "États et nations",
+      "Minorités et revendications territoriales",
+      "Séparatismes",
+      "Guerres et tensions géopolitiques"
+    ],
+    "S’informer : un regard critique sur les sources": [
+      "Liberté de la presse",
+      "Rôle des médias",
+      "Information et désinformation",
+      "Réseaux sociaux",
+      "Esprit critique"
+    ],
+    "Analyser les relations entre États et religions": [
+      "Laïcité",
+      "Religion et politique",
+      "Conflits religieux",
+      "Religion et géopolitique",
+      "Liberté religieuse"
+    ]
+  },
+
+  "Terminale": {
+    "De nouveaux espaces de conquête": [
+      "Espace extra-atmosphérique",
+      "Conquête spatiale",
+      "Enjeux scientifiques et militaires",
+      "Droit de l’espace",
+      "Nouvelles puissances spatiales"
+    ],
+    "Faire la guerre, faire la paix": [
+      "Formes de conflits",
+      "Guerres asymétriques",
+      "Terrorisme",
+      "Rôle de l’ONU",
+      "Maintien de la paix"
+    ],
+    "Histoire et mémoires": [
+      "Mémoire et histoire",
+      "Mémoires de la Seconde Guerre mondiale",
+      "Mémoires de la colonisation",
+      "Devoir de mémoire",
+      "Conflits mémoriels"
+    ],
+    "Protéger et promouvoir le patrimoine": [
+      "Définition du patrimoine",
+      "Patrimoine culturel et naturel",
+      "UNESCO",
+      "Enjeux économiques du patrimoine",
+      "Destructions et sauvegardes"
+    ],
+    "L’environnement : entre exploitation et protection": [
+      "Ressources naturelles",
+      "Développement durable",
+      "Conflits environnementaux",
+      "Gouvernance mondiale du climat",
+      "Transition écologique"
+    ]
+  }
+},
 
 };
 
