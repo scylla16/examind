@@ -1079,6 +1079,75 @@ const data = {
     ]
   }
 },
+"SNT": {
+  "2nde": {
+    "Internet": [
+      "Histoire d’Internet",
+      "Réseaux et protocoles",
+      "Adresse IP",
+      "Nom de domaine et DNS",
+      "Client / serveur",
+      "Paquets de données",
+      "Neutralité du Net"
+    ],
+    "Le Web": [
+      "Fonctionnement du Web",
+      "Pages Web",
+      "HTML et CSS (bases)",
+      "URL",
+      "Navigateurs",
+      "Moteurs de recherche",
+      "Référencement"
+    ],
+    "Les réseaux sociaux": [
+      "Fonctionnement des réseaux sociaux",
+      "Données personnelles",
+      "Algorithmes de recommandation",
+      "Bulles de filtres",
+      "Cyberharcèlement",
+      "Identité numérique"
+    ],
+    "Les données structurées": [
+      "Données et informations",
+      "Tableaux de données",
+      "Formats de données",
+      "Tri et filtrage",
+      "Bases de données (notions)",
+      "Open data"
+    ],
+    "Localisation et cartographie": [
+      "Géolocalisation",
+      "GPS",
+      "Cartographie numérique",
+      "Données géographiques",
+      "Applications de navigation"
+    ],
+    "Photographie numérique": [
+      "Image numérique",
+      "Pixels",
+      "Résolution",
+      "Codage des couleurs",
+      "Compression",
+      "Retouches d’images"
+    ],
+    "Objets connectés": [
+      "Capteurs",
+      "Objets connectés",
+      "Internet des objets (IoT)",
+      "Données collectées",
+      "Enjeux de sécurité",
+      "Vie privée"
+    ],
+    "Algorithmique et programmation": [
+      "Notion d’algorithme",
+      "Instructions simples",
+      "Boucles",
+      "Conditions",
+      "Variables",
+      "Algorithmes du quotidien"
+    ]
+  }
+},
 
 };
 
