@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="app">
-        <!-- Header / Logo -->
-        <header>
+        <!-- Header -->
+        <header class="header">
             <h1>ExaMind</h1>
         </header>
 
@@ -18,9 +18,9 @@
             <input type="text" id="search" placeholder="Rechercher une matière, un chapitre..." />
         </div>
 
-        <!-- Contenu principal (cartes matières, niveaux, thèmes, chapitres) -->
+        <!-- Zone de contenu -->
         <main id="content">
-            <!-- Les cartes s'afficheront ici via app.js -->
+            <!-- Les cartes des matières, niveaux, thèmes et chapitres s'afficheront ici via app.js -->
         </main>
     </div>
 
@@ -35,11 +35,7 @@
             const cards = document.querySelectorAll('.card');
             cards.forEach(card => {
                 const text = card.textContent.toLowerCase();
-                if (text.includes(query)) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
+                card.style.display = text.includes(query) ? 'block' : 'none';
             });
         });
     </script>
