@@ -3,121 +3,144 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #6a0dad, #2c2c54);
+  background: linear-gradient(135deg, #4b0082, #6a0dad, #2c2c54);
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 /* =================== HEADER =================== */
 header {
   width: 100%;
-  padding: 20px 40px;
+  padding: 25px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: #fff;
-  font-weight: 700;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 header .search-container {
   position: relative;
-  width: 300px;
+  width: 400px;
 }
 
 header input[type="text"] {
   width: 100%;
-  padding: 10px 15px;
-  border-radius: 30px;
+  padding: 12px 20px;
+  border-radius: 50px;
   border: none;
   outline: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
 }
 
-header input::placeholder {
-  color: #aaa;
+header input[type="text"]:focus {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
 /* =================== CONTENT =================== */
 #content {
-  width: 90%;
-  max-width: 1200px;
-  margin: 40px auto;
+  width: 95%;
+  max-width: 1400px;
+  margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
   justify-items: center;
 }
 
 /* =================== CARDS =================== */
 .card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 20px;
+  background: linear-gradient(145deg, #6a0dad, #8a2be2);
+  border-radius: 25px;
+  padding: 25px;
   width: 100%;
   max-width: 250px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  transform: rotate(25deg);
+  transition: all 0.7s ease;
+}
+
+.card:hover::before {
+  top: -20%;
+  left: -20%;
 }
 
 .card:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  background: rgba(255,255,255,0.15);
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.6);
 }
 
 /* =================== RESPONSIVE =================== */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #content {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
   }
 
   header .search-container {
-    width: 200px;
+    width: 300px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
   }
 
   header .search-container {
-    width: 100%;
+    width: 90%;
   }
 
   .card {
-    padding: 15px;
-    font-size: 0.9rem;
+    padding: 20px;
   }
 }
 
 /* =================== ANIMATIONS =================== */
 .card {
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeUp 0.5s forwards;
+  transform: translateY(30px);
+  animation: fadeUp 0.6s forwards;
 }
 
 @keyframes fadeUp {
@@ -127,9 +150,9 @@ header input::placeholder {
   }
 }
 
-/* =================== OPTIONAL EXTRA STYLE =================== */
+/* =================== SCROLLBAR =================== */
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
