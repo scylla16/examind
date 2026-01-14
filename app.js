@@ -1552,3 +1552,31 @@ function showChapters(subject, level, theme) {
 
 // --------- LANCEMENT ---------
 showSubjects();
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("input", () => {
+  const query = searchInput.value.toLowerCase();
+  content.innerHTML = "";
+
+  if (query === "") {
+    showSubjects();
+    return;
+  }
+
+  Object.keys(data).forEach(subject => {
+    Object.keys(data[subject]).forEach(level => {
+      Object.keys(data[subject][level]).forEach(theme => {
+        data[subject][level][theme].forEach(chapter => {
+          const fullText = `${subject} ${level} ${theme} ${chapter}`.toLowerCase();
+
+          if (fullText.includes(query)) {
+            const card = document.createElement("div");
+            card.className = "card";
+            card.textContent = `${chapter} (${subject} - ${level})`;
+            content.appendChild(card);
+          }
+        });
+      });
+    });
+  });
+});
