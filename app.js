@@ -1280,6 +1280,125 @@ const data = {
     ]
   }
 },
+"Italien": {
+  "3e": {
+    "Grammaire": [
+      "Alphabet et prononciation",
+      "Articles définis et indéfinis",
+      "Genre et nombre des noms",
+      "Présent de l’indicatif",
+      "Verbes réguliers en -are, -ere, -ire",
+      "Être (essere) et avoir (avere)",
+      "Adjectifs qualificatifs",
+      "Accord de l’adjectif",
+      "Pronoms personnels sujets"
+    ],
+    "Vocabulaire": [
+      "Présentation et identité",
+      "Famille",
+      "École",
+      "Loisirs",
+      "La maison",
+      "La ville"
+    ],
+    "Expression": [
+      "Se présenter",
+      "Décrire une personne",
+      "Décrire un lieu",
+      "Exprimer ses goûts"
+    ],
+    "Civilisation": [
+      "L’Italie et ses régions",
+      "Les grandes villes italiennes",
+      "La vie quotidienne en Italie",
+      "Fêtes et traditions"
+    ]
+  },
+
+  "2nde": {
+    "Grammaire": [
+      "Passé composé (passato prossimo)",
+      "Auxiliaires essere et avere",
+      "Imparfait (imperfetto)",
+      "Différence passé composé / imparfait",
+      "Pronoms COD et COI",
+      "Adverbes",
+      "Comparatif et superlatif"
+    ],
+    "Vocabulaire": [
+      "Voyage",
+      "Transports",
+      "Santé",
+      "Alimentation",
+      "Vie scolaire"
+    ],
+    "Expression": [
+      "Raconter un événement passé",
+      "Exprimer une opinion",
+      "Écrire un court texte narratif"
+    ],
+    "Civilisation": [
+      "La gastronomie italienne",
+      "Le patrimoine culturel",
+      "La mode italienne"
+    ]
+  },
+
+  "1ère": {
+    "Grammaire": [
+      "Futur simple",
+      "Conditionnel présent",
+      "Subjonctif présent",
+      "Emploi du subjonctif",
+      "Pronoms combinés",
+      "Voix passive"
+    ],
+    "Vocabulaire": [
+      "Travail et métiers",
+      "Société",
+      "Culture",
+      "Environnement"
+    ],
+    "Expression": [
+      "Argumenter",
+      "Exprimer un souhait",
+      "Exprimer un doute",
+      "Rédiger un texte structuré"
+    ],
+    "Civilisation": [
+      "L’Italie contemporaine",
+      "Les médias",
+      "Les jeunes en Italie"
+    ]
+  },
+
+  "Terminale": {
+    "Grammaire avancée": [
+      "Subjonctif imparfait",
+      "Subjonctif passé",
+      "Concordance des temps",
+      "Discours indirect",
+      "Structures complexes"
+    ],
+    "Vocabulaire": [
+      "Politique",
+      "Économie",
+      "Problèmes de société",
+      "Culture européenne"
+    ],
+    "Expression": [
+      "Essai argumentatif",
+      "Analyse de documents",
+      "Synthèse écrite"
+    ],
+    "Civilisation": [
+      "Histoire moderne de l’Italie",
+      "Italie et Europe",
+      "Cinéma italien",
+      "Littérature italienne"
+    ]
+  }
+},
 
 };
 
