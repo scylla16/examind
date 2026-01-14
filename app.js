@@ -1399,6 +1399,121 @@ const data = {
     ]
   }
 },
+"Chinois": {
+  "3e": {
+    "Langue": [
+      "Pinyin et tons",
+      "Prononciation des syllabes",
+      "Ordre des mots en chinois",
+      "Phrase affirmative, négative et interrogative",
+      "Verbe être (是 shì)",
+      "Verbe avoir (有 yǒu)",
+      "Classificateurs",
+      "Expression du temps",
+      "Adjectifs sans conjugaison"
+    ],
+    "Écriture": [
+      "Introduction aux caractères",
+      "Traits de base",
+      "Ordre des traits",
+      "Caractères usuels (50 premiers)",
+      "Différence simplifié / traditionnel"
+    ],
+    "Vocabulaire": [
+      "Salutations",
+      "Se présenter",
+      "Famille",
+      "Nombres",
+      "Dates et heures",
+      "École"
+    ],
+    "Culture": [
+      "La Chine et ses régions",
+      "Fêtes traditionnelles",
+      "La vie quotidienne",
+      "Calligraphie"
+    ]
+  },
+
+  "2nde": {
+    "Langue": [
+      "Particule de question 吗 (ma)",
+      "Particule 的 (de)",
+      "Particule 了 (le)",
+      "Expression du passé",
+      "Comparaison (比 bǐ)",
+      "Verbes de modalité"
+    ],
+    "Écriture": [
+      "Caractères usuels (100 supplémentaires)",
+      "Radicaux principaux",
+      "Utilisation du dictionnaire chinois"
+    ],
+    "Vocabulaire": [
+      "Voyage",
+      "Transports",
+      "Alimentation",
+      "Loisirs",
+      "Santé"
+    ],
+    "Culture": [
+      "Gastronomie chinoise",
+      "Symboles culturels",
+      "Modes de vie"
+    ]
+  },
+
+  "1ère": {
+    "Langue": [
+      "Structures complexes de phrases",
+      "Compléments de résultat",
+      "Compléments de direction",
+      "Formes passives (被 bèi)",
+      "Discours rapporté"
+    ],
+    "Écriture": [
+      "Caractères intermédiaires",
+      "Composition des caractères",
+      "Nuances de sens"
+    ],
+    "Vocabulaire": [
+      "Société",
+      "Éducation",
+      "Travail",
+      "Environnement"
+    ],
+    "Culture": [
+      "Histoire de la Chine",
+      "La jeunesse chinoise",
+      "La Chine moderne"
+    ]
+  },
+
+  "Terminale": {
+    "Langue avancée": [
+      "Expressions idiomatiques (成语 chéngyǔ)",
+      "Structures argumentatives",
+      "Langue formelle et écrite",
+      "Connecteurs logiques"
+    ],
+    "Écriture": [
+      "Analyse de textes",
+      "Lecture de documents authentiques"
+    ],
+    "Vocabulaire": [
+      "Politique",
+      "Économie",
+      "Relations internationales",
+      "Technologie"
+    ],
+    "Culture": [
+      "Chine et mondialisation",
+      "Cinéma chinois",
+      "Littérature chinoise",
+      "Enjeux contemporains"
+    ]
+  }
+},
 
 };
 
