@@ -1148,6 +1148,138 @@ const data = {
     ]
   }
 },
+"Latin": {
+  "3e": {
+    "Grammaire": [
+      "Les 5 déclinaisons",
+      "Cas latins : nominatif, vocatif, accusatif, génitif, datif, ablatif",
+      "Fonctions des cas",
+      "Adjectifs de la 1re et 2e classe",
+      "Accords adjectif / nom",
+      "Pronoms personnels",
+      "Pronoms démonstratifs",
+      "Pronoms relatifs (qui, quae, quod)"
+    ],
+    "Conjugaison": [
+      "Présent de l’indicatif",
+      "Imparfait de l’indicatif",
+      "Futur simple",
+      "Parfait",
+      "Plus-que-parfait",
+      "Voix active",
+      "Voix passive",
+      "Les 4 conjugaisons"
+    ],
+    "Syntaxe": [
+      "Proposition principale",
+      "Compléments essentiels",
+      "Compléments circonstanciels",
+      "Proposition relative",
+      "Ordre des mots en latin"
+    ],
+    "Vocabulaire": [
+      "Vie quotidienne romaine",
+      "Famille",
+      "École et éducation",
+      "Mythologie de base"
+    ],
+    "Civilisation": [
+      "Fondation de Rome",
+      "La République romaine",
+      "L’Empire romain",
+      "La vie des citoyens romains",
+      "Les dieux romains"
+    ]
+  },
+
+  "2nde": {
+    "Grammaire": [
+      "Révisions des déclinaisons",
+      "Pronoms indéfinis",
+      "Comparatif et superlatif",
+      "Adverbes",
+      "Participes"
+    ],
+    "Conjugaison": [
+      "Subjonctif présent",
+      "Subjonctif imparfait",
+      "Infinitif présent, parfait, futur",
+      "Gérondif et gérondif passif"
+    ],
+    "Syntaxe": [
+      "Proposition infinitive",
+      "Proposition complétive",
+      "Ablatif absolu",
+      "Valeurs des temps"
+    ],
+    "Traduction": [
+      "Méthodologie de traduction",
+      "Analyse grammaticale",
+      "Repérage du verbe",
+      "Structure de la phrase latine"
+    ],
+    "Civilisation": [
+      "La cité romaine",
+      "Les institutions politiques",
+      "La religion romaine",
+      "Les spectacles (jeux, théâtre)"
+    ]
+  },
+
+  "1ère": {
+    "Grammaire": [
+      "Subjonctif parfait",
+      "Subjonctif plus-que-parfait",
+      "Discours indirect",
+      "Pronoms complexes"
+    ],
+    "Syntaxe": [
+      "Propositions circonstancielles",
+      "Concordance des temps",
+      "Valeur des subjonctifs",
+      "Style indirect"
+    ],
+    "Littérature": [
+      "César",
+      "Cicéron",
+      "Virgile",
+      "Ovide",
+      "Horace"
+    ],
+    "Thèmes de civilisation": [
+      "Pouvoir politique",
+      "Guerre et conquête",
+      "Mythe et histoire",
+      "Héros et figures exemplaires"
+    ]
+  },
+
+  "Terminale": {
+    "Grammaire avancée": [
+      "Syntaxe complexe",
+      "Valeurs stylistiques des temps",
+      "Figures de style latines"
+    ],
+    "Littérature": [
+      "Épopée",
+      "Poésie lyrique",
+      "Rhétorique",
+      "Historiographie"
+    ],
+    "Auteurs": [
+      "Tacite",
+      "Sénèque",
+      "Lucrèce",
+      "Catulle"
+    ],
+    "Civilisation": [
+      "Empire et pouvoir",
+      "Citoyenneté romaine",
+      "Philosophie antique",
+      "Héritage latin dans les langues modernes"
+    ]
+  }
+},
 
 };
 
