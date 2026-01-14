@@ -1,75 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>ExaMind</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f5f5;
-    }
-
-    header {
-      background: #ffffff;
-      padding: 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .search-bar {
-      width: 100%;
-      padding: 12px;
-      font-size: 16px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      outline: none;
-    }
-
-    #content {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 15px;
-      padding: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      text-align: center;
-      cursor: pointer;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: scale(1.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExaMind</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div id="app">
+        <!-- Header / Logo -->
+        <header>
+            <h1>ExaMind</h1>
+        </header>
 
-  <!-- BARRE DE RECHERCHE (UNE SEULE FOIS) -->
-  <header>
-    <input
-      type="text"
-      id="searchInput"
-      class="search-bar"
-      placeholder="Rechercher une matière, un thème ou un chapitre..."
-    />
-  </header>
+        <!-- Barre de recherche -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Rechercher une matière, un chapitre..." />
+        </div>
 
-  <!-- CONTENU DYNAMIQUE -->
-  <main id="content"></main>
+        <!-- Contenu principal (cartes matières, niveaux, thèmes, chapitres) -->
+        <main id="content">
+            <!-- Les cartes s'afficheront ici via app.js -->
+        </main>
+    </div>
 
-  <!-- JS -->
-  <script src="app.js"></script>
+    <!-- Script JS -->
+    <script src="app.js"></script>
+
+    <script>
+        // --------- FONCTION RECHERCHE ---------
+        const searchInput = document.getElementById('search');
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-
