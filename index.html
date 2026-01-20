@@ -33,7 +33,56 @@
 
   <!-- ================= CONTENU DYNAMIQUE ================= -->
   <!-- app.js UTILISE CET ID, NE JAMAIS LE CHANGER -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ExaMind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="top-bar">
+    <h1 class="logo">ExaMind</h1>
+
+    <!-- BARRE DE RECHERCHE (OBLIGATOIRE POUR app.js) -->
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Rechercher une matière, un chapitre..."
+    >
+  </header>
+
+  <!-- ================= PAGE D'ACCUEIL ================= -->
+  <section class="home">
+    <div class="home-card" id="btn-matieres">📚 Matières</div>
+    <div class="home-card">📝 Quiz</div>
+    <div class="home-card">🧠 IA</div>
+    <div class="home-card">📄 Créer une fiche</div>
+  </section>
+
+  <!-- ================= CONTENU DYNAMIQUE ================= -->
+  <!-- app.js UTILISE CET ID, NE JAMAIS LE CHANGER -->
   <main id="content"></main>
+
+  <!-- ================= JS ================= -->
+  <script src="app.js"></script>
+
+  <!-- Mini JS pour la page d'accueil -->
+  <script>
+    document.getElementById("btn-matieres").onclick = () => {
+      showSubjects(); // fonction déjà dans ton app.js
+    };
+  </script>
+
+</body>
+</html>
+
 
   <!-- ================= JS ================= -->
   <script src="app.js"></script>
