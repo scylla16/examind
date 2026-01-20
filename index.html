@@ -2,40 +2,48 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <title>ExaMind</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ExaMind - Accueil</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>ExaMind</h1>
-    <p>Révise toutes tes matières et crée tes quiz et fiches facilement !</p>
+  <!-- ================= HEADER ================= -->
+  <header class="top-bar">
+    <h1 class="logo">ExaMind</h1>
+
+    <!-- BARRE DE RECHERCHE (OBLIGATOIRE POUR app.js) -->
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Rechercher une matière, un chapitre..."
+    >
   </header>
 
-  <main>
-    <div class="options">
-      <a href="matieres.html">
-        <button>Commencer les matières</button>
-      </a>
+  <!-- ================= PAGE D'ACCUEIL ================= -->
+  <section class="home">
+    <div class="home-card" id="btn-matieres">📚 Matières</div>
+    <div class="home-card">📝 Quiz</div>
+    <div class="home-card">🧠 IA</div>
+    <div class="home-card">📄 Créer une fiche</div>
+  </section>
 
-      <a href="#">
-        <button>Créer une fiche</button>
-      </a>
+  <!-- ================= CONTENU DYNAMIQUE ================= -->
+  <!-- app.js UTILISE CET ID, NE JAMAIS LE CHANGER -->
+  <main id="content"></main>
 
-      <a href="#">
-        <button>Quizs</button>
-      </a>
+  <!-- ================= JS ================= -->
+  <script src="app.js"></script>
 
-      <a href="#">
-        <button>IA / Assistance</button>
-      </a>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 ExaMind - Tous droits réservés</p>
-  </footer>
+  <!-- Mini JS pour la page d'accueil -->
+  <script>
+    document.getElementById("btn-matieres").onclick = () => {
+      showSubjects(); // fonction déjà dans ton app.js
+    };
+  </script>
 
 </body>
 </html>
