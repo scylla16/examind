@@ -74,11 +74,17 @@
   <script src="app.js"></script>
 
   <!-- Mini JS pour la page d'accueil -->
-  <script>
-    document.getElementById("btn-matieres").onclick = () => {
-      showSubjects(); // fonction déjà dans ton app.js
-    };
-  </script>
+<script>
+  const content = document.getElementById("content");
+  const home = document.querySelector(".home");
+
+  document.getElementById("btn-matieres").onclick = () => {
+    home.style.display = "none";     // cache l'accueil
+    content.style.display = "block"; // montre les matières
+    showSubjects();                  // fonction EXISTANTE dans app.js
+  };
+</script>
+
 
 </body>
 </html>
