@@ -1552,7 +1552,7 @@ function showChapters(subject, level, theme) {
 
 // --------- LANCEMENT ---------
 showSubjects();
-const searchInput = document.getElementById("search");
+const searchInput = document.getElementById("searchInput");
 
 searchInput.addEventListener("input", () => {
   const query = searchInput.value.toLowerCase();
