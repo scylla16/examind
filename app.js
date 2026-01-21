@@ -1580,31 +1580,4 @@ searchInput.addEventListener("input", () => {
     });
   });
 });
-const home = document.getElementById("home");
-const content = document.getElementById("content");
 
-function clearPage() {
-  home.style.display = "none";
-  content.innerHTML = "";
-}
-
-function openSubjects() {
-  clearPage();
-  content.style.display = "block";
-  showSubjects(); // EXISTE DÉJÀ CHEZ TOI
-}
-
-function openQuizzes() {
-  clearPage();
-  content.innerHTML = "<h2>Quiz (à venir)</h2>";
-}
-
-function openFiches() {
-  clearPage();
-  content.innerHTML = "<h2>Fiches (à venir)</h2>";
-}
-
-function openIA() {
-  clearPage();
-  content.innerHTML = "<h2>IA (à venir)</h2>";
-}
