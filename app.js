@@ -1581,3 +1581,24 @@ searchInput.addEventListener("input", () => {
   });
 });
 
+// ================= PAGE D'ACCUEIL =================
+
+function openSubjects() {
+  // Redirection vers la page des matières
+  window.location.href = "app.html";
+}
+
+function openQuizzes() {
+  const content = document.getElementById("content");
+  content.innerHTML = "<h2>Quiz</h2><p>Section quiz en cours de création.</p>";
+}
+
+function openFiches() {
+  const content = document.getElementById("content");
+  content.innerHTML = "<h2>Fiches</h2><p>Section fiches en cours de création.</p>";
+}
+
+function openIA() {
+  const content = document.getElementById("content");
+  content.innerHTML = "<h2>IA</h2><p>Assistant IA en cours de création.</p>";
+}
