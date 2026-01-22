@@ -1612,3 +1612,18 @@ function openIA() {
 function openSubjects() {
   window.location.href = "matieres.html";
 }
+function openSubjects() {
+  window.location.href = "matieres.html";
+}
+
+function openQuizzes() {
+  alert("Quiz : bientôt disponible");
+}
+
+function openFiches() {
+  alert("Fiches : bientôt disponible");
+}
+
+function openIA() {
+  alert("IA : bientôt disponible");
+}
