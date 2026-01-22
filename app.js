@@ -1560,7 +1560,11 @@ const searchInput = document.getElementById("searchInput");
 
 if (searchInput) {
   searchInput.addEventListener("input", () => {
-  const query = searchInput.value.toLowerCase();
+    const query = searchInput.value.toLowerCase();
+    // ton code de recherche ici
+  });
+}
+
   content.innerHTML = "";
 
   if (query === "") {
