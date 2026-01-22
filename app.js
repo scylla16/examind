@@ -1610,11 +1610,6 @@ function openIA() {
   content.innerHTML = "<h2>IA</h2><p>Assistant IA en cours de création.</p>";
 }
 
-function openSubjects() {
-  window.location.href = "matieres.html";
-
-}
-
 function openQuizzes() {
   alert("Quiz : bientôt disponible");
 }
@@ -1625,4 +1620,9 @@ function openFiches() {
 
 function openIA() {
   alert("IA : bientôt disponible");
+}
+
+function openSubjects() {
+  window.location.href = "matieres.html";
+
 }
