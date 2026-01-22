@@ -1609,3 +1609,6 @@ function openIA() {
   const content = document.getElementById("content");
   content.innerHTML = "<h2>IA</h2><p>Assistant IA en cours de création.</p>";
 }
+function openSubjects() {
+  window.location.href = "matieres.html";
+}
