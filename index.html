@@ -4,22 +4,15 @@
   <meta charset="UTF-8">
   <title>ExaMind</title>
 </head>
-
 <body>
+  <h1>ExaMind</h1>
 
-<h1>ExaMind</h1>
+  <button id="btnSubjects">Matières</button>
 
-<!-- PAGE D'ACCUEIL -->
-<section id="home">
-  <button onclick="openSubjects()">Matières</button>
-<button disabled>Quiz (bientôt)</button>
-<button disabled>Fiches (bientôt)</button>
-<button disabled>IA (bientôt)</button>
-</section>
-
-<!-- CONTENU DYNAMIQUE -->
-<section id="content"></section>
-<script src="app.js"></script>
+  <script>
+    document.getElementById("btnSubjects").onclick = function() {
+      window.location.href = "matieres.html";
+    };
+  </script>
 </body>
 </html>
-
