@@ -1588,8 +1588,7 @@ if (searchInput) {
 // ================= PAGE D'ACCUEIL =================
 
 function openSubjects() {
-  // Redirection vers la page des matières
-  window.location.href = "app.html";
+  window.location.href = "matieres.html";
 }
 
 function openQuizzes() {
