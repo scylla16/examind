@@ -1520,6 +1520,10 @@ const data = {
 // ------------------- LOGIQUE DE NAVIGATION -------------------
 
 const content = document.getElementById("content");
+if (!content) {
+  // On n'est pas sur une page qui utilise app.js
+  return;
+}
 
 function showCards(items, onClick) {
   content.innerHTML = "";
@@ -1554,12 +1558,12 @@ function showChapters(subject, level, theme) {
 showSubjects();
 const searchInput = document.getElementById("searchInput");
 
-searchInput.addEventListener("input", () => {
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
   const query = searchInput.value.toLowerCase();
   content.innerHTML = "";
 
   if (query === "") {
-    showSubjects();
     return;
   }
 
