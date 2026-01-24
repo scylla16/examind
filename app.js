@@ -1626,3 +1626,10 @@ function openSubjects() {
   window.location.href = "matieres.html";
 
 }
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof showSubjects === "function") {
+    showSubjects();
+  } else {
+    console.error("La fonction showSubjects() n'existe pas");
+  }
+});
