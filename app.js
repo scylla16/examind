@@ -1554,60 +1554,10 @@ function showChapters(subject, level, theme) {
   showCards(data[subject][level][theme], () => {});
 }
 
-// --------- LANCEMENT ---------
-showSubjects();
-const searchInput = document.getElementById("searchInput");
-
-if (searchInput) {
-  searchInput.addEventListener("input", () => {
-    const query = searchInput.value.toLowerCase();
-    // ton code de recherche ici
-  });
-}
-
-  content.innerHTML = "";
-
-  if (query === "") {
-    return;
-  }
-
-  Object.keys(data).forEach(subject => {
-    Object.keys(data[subject]).forEach(level => {
-      Object.keys(data[subject][level]).forEach(theme => {
-        data[subject][level][theme].forEach(chapter => {
-          const fullText = `${subject} ${level} ${theme} ${chapter}`.toLowerCase();
-
-          if (fullText.includes(query)) {
-            const card = document.createElement("div");
-            card.className = "card";
-            card.textContent = `${chapter} (${subject} - ${level})`;
-            content.appendChild(card);
-          }
-        });
-      });
-    });
-  });
-});
-
 // ================= PAGE D'ACCUEIL =================
 
 function openSubjects() {
   window.location.href = "matieres.html";
-}
-
-function openQuizzes() {
-  const content = document.getElementById("content");
-  content.innerHTML = "<h2>Quiz</h2><p>Section quiz en cours de création.</p>";
-}
-
-function openFiches() {
-  const content = document.getElementById("content");
-  content.innerHTML = "<h2>Fiches</h2><p>Section fiches en cours de création.</p>";
-}
-
-function openIA() {
-  const content = document.getElementById("content");
-  content.innerHTML = "<h2>IA</h2><p>Assistant IA en cours de création.</p>";
 }
 
 function openQuizzes() {
@@ -1622,10 +1572,6 @@ function openIA() {
   alert("IA : bientôt disponible");
 }
 
-function openSubjects() {
-  window.location.href = "matieres.html";
-
-}
 document.addEventListener("DOMContentLoaded", () => {
   if (typeof showSubjects === "function") {
     showSubjects();
